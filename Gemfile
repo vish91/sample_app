@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'yaml_db'
-
+gem 'rvm-capistrano'
 gem 'rails', '3.2.6'
 gem 'bootstrap-sass', '2.1'
 gem 'bcrypt-ruby', '3.0.1'
