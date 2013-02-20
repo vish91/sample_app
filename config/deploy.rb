@@ -18,7 +18,7 @@ set :use_sudo, false
 
 # Or: `accurev`, `bzr`, `cvs`, `darcs`, `git`, `mercurial`, `perforce`, `subversion` or `none`
 
-set :user,""
+set :user,"ubuntu"
 role :web, location                         # Your HTTP server, Apache/etc
 role :app, location                          # This may be the same as your `Web` server
 role :db,  location, :primary => true # This is where Rails migrations will run
